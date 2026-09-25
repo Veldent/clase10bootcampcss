@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+
+
+header{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(to right,#1f1f1f,#121212,#1f1f1f);
+}
+
+header h1{
+    color:#00e5ff;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+
+
+nav{
+    background:black;
+    padding:35px;
+    text-align:center;
+}
+
+nav a{
+    color:#00e5ff;
+    text-decoration:none;
+    margin:0 30px;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:white;
+}
+
+
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:340px;
+    background:#222;
+    border:2px solid #00e5ff;
+    border-radius:15px;
+    padding:35px;
+}
+
+.card h2{
+    color:#00e5ff;
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+.card p{
+    margin-bottom:25px;
+    font-size:1.1rem;
+}
+
+.card button{
+    background:#00e5ff;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.card button:hover{
+    background:#00c8de;
+}
+
+
+
+footer{
+    background:black;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+    font-size:1.1rem;
+}
